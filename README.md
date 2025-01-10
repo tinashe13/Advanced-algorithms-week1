@@ -11,5 +11,5 @@ Solution 1
 
 Solution 2
 
-* Solution 2 involved the use of an aditional data structure in the for of an unordered map (Hashmap) to store the value of the indicies we have seen as a key value pai of value and index
+* Solution 2 involved the use of an aditional data structure in the form of a map (Hashmap) to store the value of the indicies we have seen as a key value pai of value and index
 * This approach reduced the lookup time to O(n) where n is the size of the array, but it is important to note that by introducing a hashmap we will now be sacrificing on space efficiency and now our space ccplexity becaomes O(n) instead of O(1)
