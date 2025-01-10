@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include <unordered_map>
+#include <map>
 using namespace std;
 
 
@@ -23,7 +23,7 @@ vector<int> TwoSum1(vector<int> nums, int target) {
 // Using a hashmap to store values we have seen before
 vector<int> TwoSum2(vector<int> nums, int target) {
     // Stores number -> index
-    unordered_map<int, int> memory;
+    map<int, int> memory;
 
     for (int i = 0; i < nums.size(); i++) {
         int complement = target - nums[i];
